@@ -1,0 +1,333 @@
+.rider_complaints_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.85 !important;
+}
+.rider_complaints_view_container {
+  max-width: 35rem !important;
+}
+.sos_contact_modal_container {
+  max-width: 80rem !important;
+}
+.booking_ID_container {
+  box-shadow: 0px 0px 6px #00000029;
+  width: fit-content;
+}
+.restore_password_visible {
+  position: absolute;
+  right: 7px;
+  top: 2px;
+}
+.initiate_password_modal_container {
+  max-width: 30rem !important;
+}
+.initiate_password_modal_backdrop {
+  z-index: 1055 !important;
+}
+.assign_complaint_modal_container {
+  max-width: fit-content !important;
+}
+
+.assign_admin_list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 25rem;
+  scroll-behavior: smooth;
+}
+
+.assign_admin_list::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  margin-top: 40px;
+}
+
+.assign_admin_list::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f5f5f5;
+}
+
+.assign_admin_list::-webkit-scrollbar-thumb {
+  background-color: #687284;
+}
+
+.table_heading {
+  position: sticky;
+  top: 0px;
+  margin: 0 0 0 0;
+}
+.assign_admin_table_container {
+  position: relative;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.assign_admin_table_container::-webkit-scrollbar {
+  background-color: #fbfbfb;
+  width: 5px;
+  height: 5px;
+}
+.assign_admin_table_container::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px #00000029;
+}
+.filter_container {
+  box-shadow: 0px 0px 20px #0000001f;
+  background-color: white;
+  z-index: 99;
+  position: absolute;
+  top: 3rem;
+  right: 3.5rem;
+}
+.add_filter_heading {
+  border-bottom: 1px solid #68728433;
+}
+
+/* rider-call  */
+.generate_container {
+  width: 36rem;
+  background-color: #6872840d;
+}
+.required_message_height {
+  height: 1rem;
+}
+.specific_error_container {
+  height: 0.5rem;
+  width: 22rem;
+}
+.line_spacing {
+  line-height: 14px;
+}
+.description_area {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-height: 3.5rem;
+  scroll-behavior: smooth;
+}
+
+.description_area::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.description_area::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f5f5f5;
+}
+
+.description_area::-webkit-scrollbar-thumb {
+  background-color: #687284;
+}
+.complaints_select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: white url("../../assets/icons//select-dropdowm-icon.svg")
+    no-repeat 100% center;
+  border: 1px solid #68728480;
+}
+
+.complaints_select_error {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent url("../../assets/icons//select-dropdowm-icon.svg")
+    no-repeat 100% center;
+  border: 1px solid #fa2929;
+}
+.booking_id_input::placeholder {
+  color: #68728480;
+  font-size: 14px;
+  padding-top: 0.5rem;
+  font-weight: 500;
+}
+
+/* rider-mobile-app  */
+.rider_complaints_mobile_app_view_container {
+  max-width: 49rem !important;
+}
+.serach__input_icon {
+  border-left: 1px solid #6872844d;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.complaint_block {
+  box-shadow: 0px 0px 9px #00000029;
+}
+.complaints_block {
+  box-shadow: 0px 0px 9px #00000029;
+  border-radius: 5px;
+  border-left: 5px solid #ffc000;
+}
+
+.complaint_border_bottom {
+  border-bottom: 1px solid #6872841a;
+}
+.rider_details_container {
+  position: absolute;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0px 0px 15px #68728433;
+  top: 2rem;
+  right: 0rem;
+  z-index: 99;
+}
+.rider_details_container:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #68728433;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  bottom: 100%;
+  left: 90%;
+  margin-left: 0px;
+  margin-top: -1px;
+}
+.rider_more_option_container {
+  position: absolute;
+  box-shadow: 0px 0px 25px #68728433;
+  top: 2rem;
+  right: 0rem;
+  z-index: 99;
+}
+.driver_more_option_container {
+  position: absolute;
+  box-shadow: 0px 0px 25px #68728433;
+  top: -7px;
+  right: -15px;
+  z-index: 99;
+}
+.border_f0f0f0_hr {
+  border: 1px solid #f0f0f0;
+}
+.rider_complaint_filter_container {
+  position: absolute;
+  box-shadow: 0px 0px 25px #68728433;
+  top: 0rem;
+  right: 0rem;
+  z-index: 99;
+}
+.rider_message_download_button {
+  position: absolute;
+  top: 1rem;
+  right: 3.5rem;
+  box-shadow: 0px 0px 25px #68728433;
+  z-index: 99;
+}
+.message_box_view_container {
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+  background: #ffff;
+  border-bottom: 1px solid #6872841a;
+}
+/* .chat_messages_view_block {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 30rem;
+  scroll-behavior: smooth;
+}
+
+.chat_messages_view_block::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  margin-top: 5.8rem;
+}
+
+.chat_messages_view_block::-webkit-scrollbar {
+  width: 3px;
+  background-color: #ffff;
+}
+
+.chat_messages_view_block::-webkit-scrollbar-thumb {
+  background-color: #687284;
+} */
+form select:invalid {
+  color: #68728480;
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+form select option:first-child {
+  color: #68728480;
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+form select:invalid option:not(:first-child) {
+  color: black;
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+/* sos css */
+.add_local_responser_container {
+  max-width: 37rem !important;
+}
+.add_local_responser_input::placeholder {
+  color: #68728480;
+  font-size: 14px;
+}
+.sos_contact_modal_container {
+  max-width: 45rem !important;
+}
+.sos_contact_details_list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 20rem;
+  scroll-behavior: smooth;
+}
+
+.sos_contact_details_list::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  margin-top: 40px;
+}
+
+.sos_contact_details_list::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f5f5f5;
+}
+
+.sos_contact_details_list::-webkit-scrollbar-thumb {
+  background-color: #687284;
+}
+
+.local_responser_list {
+  overflow: auto;
+  /* overflow-y: scroll; */
+  /* overflow-x: auto; */
+  max-height: 20rem;
+  min-height: 20rem;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+.local_responser_list::-webkit-scrollbar-track {
+  /* background-color: #f5f5f5; */
+  margin-top: 40px;
+}
+
+.local_responser_list::-webkit-scrollbar {
+  width: 3px;
+  /* background-color: #f5f5f5; */
+}
+
+.local_responser_list::-webkit-scrollbar-thumb {
+  background-color: #687284;
+}
+.local_responder_table_body {
+  background-color: #6872840d;
+}
+.sos_contact_details_container {
+  max-width: 50rem;
+}
+.zone_select {
+  width: 10rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .generate_container {
+    width: 100%;
+  }
+}
+.details_heading {
+  text-decoration: underline;
+}

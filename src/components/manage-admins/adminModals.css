@@ -1,0 +1,464 @@
+/* .create_password_container {
+  max-width: 27rem !important;
+}
+.create_password_card_radius {
+  border-radius: 10px !important;
+}
+.password_visible_icon {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+}
+
+.password_confirm_visible_icon {
+  position: absolute;
+  right: 7px;
+  top: 28px;
+}
+
+.blockDetails_modal {
+  max-width: 24rem !important;
+}
+.password_created_card {
+  border-radius: 10px !important;
+}
+.change_made_password_visible {
+  position: absolute;
+  right: 53px;
+  top: 30px;
+}
+.confirm_reset_password_visible {
+  position: absolute;
+  right: 7px;
+  top: 2px;
+}
+.admin_block_container {
+  max-width: 33rem !important;
+}
+.admin_unblock_container {
+  max-width: 31rem !important;
+}
+.block_text_area {
+  height: 6vw;
+}
+.menu_list {
+  list-style: none;
+}
+
+.menu_list_container {
+  position: absolute;
+  box-shadow: 0px 0px 25px #68728433;
+  border-radius: 8px;
+  background-color: #ffff;
+  z-index: 999;
+  right: 2.5rem;
+}
+.admin_details_card {
+  position: absolute;
+  right: 2.5rem;
+  top: 5.3rem;
+  box-shadow: 0px 0px 25px #68728433;
+  border-radius: 8px;
+  border: 1px solid #9e9e9e;
+  background-color: #ffff;
+  z-index: 999;
+  width: 16rem;
+}
+.admin_details_text {
+  color: #1287e1d9;
+  border-bottom: 1px solid #1287e1d9;
+}
+
+.deleted_text {
+  border-radius: 50px;
+  width: fit-content;
+}
+.deleted_list_icon {
+  font-size: 6px;
+  padding-right: 2px;
+}
+.user_role_container {
+  height: 3rem;
+}
+
+.add_admin_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.85 !important;
+}
+.edit_admin_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.2 !important;
+}
+
+.delete_view_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.4 !important;
+}
+
+.delete_details_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.9 !important;
+}
+
+.close_icon_container {
+  border-radius: 50%;
+}
+
+.add_new_admin_container {
+  max-width: 41rem !important;
+}
+
+.password_error_text {
+  color: #d32f2f;
+}
+
+.feature_permissions_container {
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  width: 96%;
+  height: 14.8rem;
+}
+
+.feature_permissions_list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 9.5rem;
+  scroll-behavior: smooth;
+}
+
+.feature_permissions_list::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.feature_permissions_list::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f5f5f5;
+}
+
+.feature_permissions_list::-webkit-scrollbar-thumb {
+  background-color: #687284;
+}
+
+.admin_created_container {
+  max-width: 23rem !important;
+}
+.admin_created_card {
+  border-radius: 10px !important;
+}
+
+.password_error {
+  border: 1px solid #f90000d6;
+}
+.password_input {
+  border: 1px solid #9e9e9e;
+}
+
+.confirm_reset_container {
+  max-width: 30rem !important;
+}
+.input_text_holder::placeholder {
+  font-size: 13px;
+  font-weight: 500;
+  color: #9e9e9e;
+}
+.admin_block_password_visible {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.block_details_container {
+  position: absolute;
+  top: 6.2rem;
+  line-height: 24px;
+  font-weight: 600;
+  display: block;
+}
+.block_details_container:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 7px solid #9e9e9e;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  bottom: 100%;
+  left: 50%;
+  margin-left: 85px;
+}
+
+
+
+.table_filter_container {
+  box-shadow: 0px 0px 20px #0000001f;
+  background-color: white;
+  z-index: 99;
+  position: absolute;
+  right: 7rem;
+  width: 100%;
+  max-width: 45rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .table_filter_container {
+    right: 0rem;
+  }
+} */
+
+.create_password_container {
+  max-width: 27rem !important;
+}
+.create_password_card_radius {
+  border-radius: 10px !important;
+}
+.password_visible_icon {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+}
+
+.password_confirm_visible_icon {
+  position: absolute;
+  right: 7px;
+  top: 28px;
+}
+
+.blockDetails_modal {
+  max-width: 24rem !important;
+}
+.password_created_card {
+  border-radius: 10px !important;
+}
+.change_made_password_visible {
+  position: absolute;
+  right: 53px;
+  top: 30px;
+}
+.confirm_reset_password_visible {
+  position: absolute;
+  right: 7px;
+  top: 2px;
+}
+.admin_block_container {
+  max-width: 32rem !important;
+}
+.admin_unblock_container {
+  max-width: 31rem !important;
+}
+.block_text_area {
+  min-height: 6vw;
+}
+.menu_list {
+  list-style: none;
+}
+
+.menu_list_container {
+  position: absolute;
+  box-shadow: 0px 0px 25px #68728433;
+  border-radius: 8px;
+  background-color: #ffff;
+  z-index: 999;
+  right: 2.5rem;
+}
+.admin_details_card {
+  position: absolute;
+  right: 2.5rem;
+  top: 5.3rem;
+  box-shadow: 0px 0px 25px #68728433;
+  border-radius: 8px;
+  border: 1px solid #9e9e9e;
+  background-color: #ffff;
+  z-index: 999;
+  width: 16rem;
+}
+.admin_details_text {
+  color: #1287e1d9;
+  border-bottom: 1px solid #1287e1d9;
+}
+
+.deleted_text {
+  border-radius: 50px;
+  width: fit-content;
+}
+.deleted_list_icon {
+  font-size: 6px;
+  padding-right: 2px;
+}
+.create_password_modal_backdrop {
+  z-index: 1055 !important;
+}
+/* new admin modals css */
+.user_role_container {
+  height: 3rem;
+}
+
+.add_admin_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.85 !important;
+}
+.edit_admin_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.8.5 !important;
+}
+
+.delete_view_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.4 !important;
+}
+
+.delete_details_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.9 !important;
+}
+
+.close_icon_container {
+  border-radius: 50%;
+}
+
+.add_new_admin_container {
+  max-width: 50rem !important;
+}
+
+.password_error_text {
+  color: #ed0b0b;
+}
+
+.feature_permissions_container {
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  width: 96%;
+  height: 14.8rem;
+}
+
+.feature_permissions_list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 9.5rem;
+  scroll-behavior: smooth;
+}
+
+.feature_permissions_list::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.feature_permissions_list::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f5f5f5;
+}
+
+.feature_permissions_list::-webkit-scrollbar-thumb {
+  background-color: #687284;
+}
+/* .input_checkbox{
+ 
+    border-radius: 10px !important;
+} */
+.admin_created_container {
+  max-width: 23rem !important;
+}
+.admin_created_card {
+  border-radius: 10px !important;
+}
+
+.password_error {
+  border: 1px solid #f90000d6;
+}
+.password_input {
+  border: 1px solid #9e9e9e;
+}
+
+.confirm_reset_container {
+  max-width: 30rem !important;
+}
+.input_text_holder::placeholder {
+  font-size: 13px;
+  font-weight: 500;
+  color: #9e9e9e;
+}
+.admin_block_password_visible {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.block_details_container {
+  position: absolute;
+  top: 6.2rem;
+  line-height: 24px;
+  font-weight: 600;
+  display: block;
+}
+.block_details_container:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 7px solid #9e9e9e;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  bottom: 100%;
+  left: 50%;
+  margin-left: 85px;
+}
+
+/*******Filer container*******/
+
+.table_filter_container {
+  box-shadow: 0px 0px 20px #0000001f;
+  background-color: white;
+  z-index: 99;
+  position: absolute;
+  right: 1rem;
+  width: 100%;
+  max-width: 45rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .table_filter_container {
+    right: 0rem;
+  }
+}
+.admin_panel {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 6px #00000029;
+  /* opacity: 0.6; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.table_data {
+  border-left: 1px solid #cbcbcb;
+}
+.table_btms {
+  border-bottom: 1px solid #cbcbcb;
+}
+.view_permissions_lists {
+  overflow-y: scroll;
+  overflow-x: auto;
+  max-height: 40rem;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+.view_permissions_lists::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  margin-top: 40px;
+}
+
+.view_permissions_lists::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f5f5f5;
+}
+
+.view_permissions_lists::-webkit-scrollbar-thumb {
+  background-color: #687284;
+}
+.table_header {
+  border-radius: 5px 5px 0px 0px;
+}
+.admin_downpanel {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 25px #00000029;
+  /* opacity: 0.6; */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

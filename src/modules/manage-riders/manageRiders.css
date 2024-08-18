@@ -1,0 +1,45 @@
+.manage_rider_container {
+    max-width: 98rem;
+    box-shadow: 0px 0px 12px #00000012;
+    border: 2px solid #f0f0f0;
+    border-radius: 20px;
+    height: 55rem;
+  }
+
+  .manage_riders_table_container{
+    height: 40rem;
+  }
+  .active_container{
+    background-color: #00AB2E33;
+    border-radius: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.view_text:hover{
+  color: #ffff;
+}
+
+.blocked_active_container{
+  background-color: #F6C90E;
+  border-radius: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.inactive_container{
+  background-color:#F6000033 ;
+  border-radius: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.new_application_conatiner{
+  background-color:#F36B1C26 ;
+  border-radius: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.re_approval_conatiner{
+  background-color:#52158033 ;
+  border-radius: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}

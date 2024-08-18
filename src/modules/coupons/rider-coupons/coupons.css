@@ -1,0 +1,71 @@
+.rider_coupon_container {
+  min-height: 48rem;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+}
+
+.coupons_list_container {
+  background-color: #f0f0f05f;
+  border-radius: 10px;
+  /* height: 78vh; */
+}
+
+.coupons_border_bottom {
+  border-bottom: 2.5px solid #0f203c;
+}
+
+.coupons_heading_container {
+  position: relative;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.coupons_heading_container::-webkit-scrollbar {
+  background-color: #fbfbfb;
+  width: 8px;
+  height: 2px;
+}
+.coupons_heading_container::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px #00000029;
+}
+.discount_detials_container {
+  /* min-height: 25rem; */
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+}
+/* .coupon_discription_text_area {
+    height: 5rem;
+  } */
+/* .percent_icon {
+    position: absolute;
+    top: 1.8rem;
+    right: 1.2rem;
+    border-left: 1px solid #0f203c;
+  } */
+/* .ruppe_icon {
+    position: absolute;
+    top: 1.8rem;
+    left: 1.2rem;
+  } */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: #0f203c;
+  opacity: 1;
+  display: block;
+  background: url(../../../assets/icons/calendar-icon.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  color: #0f203c;
+  opacity: 1;
+  display: block;
+  background: url(../../../assets/icons/clock-icon.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}

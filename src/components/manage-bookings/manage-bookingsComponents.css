@@ -1,0 +1,164 @@
+.driver_requested_cancel_container {
+  max-width: 33rem !important;
+}
+.driver_requested_cancel_card {
+  border-radius: 7px !important;
+}
+.driver_requested_cancel_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.85 !important;
+}
+.driver_requested_password_input {
+  border: 1px solid #9e9e9e;
+}
+.driver_request_password_visible_icon {
+  position: absolute;
+  right: 23px;
+  top: 3px;
+}
+.trip_cancel_details_container {
+  max-width: 27rem !important;
+}
+
+.pending_trip_container {
+  background-color: #67cbff99;
+}
+
+.monitor_trip_title_container {
+  background-color: #afdf4cbd;
+}
+.ongoing_bookings_download_invoice {
+  position: absolute;
+  top: 2.3rem;
+  left: 1rem;
+  background-color: #ffffff;
+}
+.ongoing_bookings_menu_option {
+  position: absolute;
+  top: 0rem;
+  /* left: -13.8rem; */
+  right: 2rem;
+  background-color: #ffffff;
+}
+.cancelled_bookings_menu_option {
+  position: absolute;
+  top: 0rem;
+  left: -12.8rem;
+  background-color: #ffffff;
+}
+.rider_billing_headings {
+  background-color: #b2d9df99;
+}
+.rider_billing_datas {
+  background-color: #f0f0f0;
+}
+.rider_billing_first_list {
+  border-top-left-radius: 10px;
+}
+.rider_billing_last_list {
+  border-top-right-radius: 10px;
+}
+
+.driver_accident_report_container {
+  max-width: 34rem !important;
+}
+.table_lines {
+  border-bottom: 1px solid #687284;
+}
+.rider_billing_last_right_row {
+  border-bottom-right-radius: 10px;
+}
+.rider_billing_last_left_row {
+  border-bottom-left-radius: 10px;
+}
+
+.undo_change_btn {
+  border: 2px solid #f90000d6;
+}
+.rider_billing_input {
+  width: 3.5rem;
+  /* height: 1.3rem; */
+  border: 1px solid #0f203c;
+}
+.rider_billing_input_edit {
+  width: 3.5rem;
+  height: 1.3rem;
+  border: 1px solid #0f203c;
+}
+
+.update_billing_details_password {
+  position: absolute;
+  top: 4px;
+  right: -13px;
+}
+.km_input_text {
+  border-left: 1px solid #6872844d;
+  position: absolute;
+  right: 60px;
+  top: 33px;
+}
+/* modals  */
+.odometerupdatesuccessful_width {
+  max-width: 36rem !important;
+}
+.paymentUpdateModal_width {
+  max-width: 36rem !important;
+}
+.paymentsuccessful_width {
+  max-width: 29rem !important;
+}
+.odometerupdatesuccessful_width {
+  max-width: 35rem !important;
+}
+.initialOdometer_width {
+  max-width: 40rem !important;
+}
+.billingdetails_width {
+  max-width: 34rem !important;
+}
+.cancellationDetails_width {
+  max-width: 32rem !important;
+}
+.cancelBtnModal {
+  border: 2px solid #0f203c;
+}
+.modalInputBorder {
+  border: 2px solid #9e9e9e;
+}
+
+
+.input_radio[type="radio"]:checked:after {
+  width: 7.3px;
+  height: 7.3px;
+  border-radius: 20px;
+  top: -2.8px;
+  left: 2.1px;
+  position: relative;
+  background-color: #0f203c;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  outline-offset: 0.06cm;
+  outline: 2px solid #0f203c;
+}
+.input_danger {
+  border: 1px solid red;
+}
+.driver_request_password_visible_icon {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+.download_invoice {
+  width: 100%;
+}
+@media only screen and (max-width: 1500px) {
+  .download_invoice {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .download_invoice {
+    font-size: 13px;
+  }
+}

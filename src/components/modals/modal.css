@@ -1,0 +1,11 @@
+.modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.85 !important;
+}
+.zone_cannot_create_container {
+  max-width: 28rem !important;
+}
+
+.leave_modal_container {
+  max-width: 30rem !important;
+}

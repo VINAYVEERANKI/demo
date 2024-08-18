@@ -1,0 +1,180 @@
+.ride_type_source_image_container {
+  width: 14rem;
+  height: 10rem;
+  /* background-color: #f7f7f7; */
+}
+.ride_type_container {
+  max-width: 38rem !important;
+}
+.ride_type_zone_container {
+  max-width: 42rem !important;
+}
+.elligible_booking_types_container {
+  width: 14rem;
+  height: 8rem;
+  /* background-color: #f7f7f7; */
+}
+.eligible_booking_type_heading {
+  position: absolute;
+  top: -14px;
+  left: 10px;
+}
+/* status modal  */
+.status_change_container {
+  max-width: 34rem !important;
+}
+.status_change_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.85 !important;
+}
+.status_change_password_visible_icon {
+  position: absolute;
+  right: 23px;
+  top: 3px;
+}
+.seating_capacity_container {
+  margin-top: 10.75rem;
+}
+.error_height_container {
+  height: 1rem;
+}
+.zone_container {
+  width: 14rem;
+  /* background-color: #f7f7f7; */
+  height: 15.3rem;
+}
+.eligible_rideType_scroll_bar_container {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 7.8rem;
+  width: 12.3rem;
+  scroll-behavior: smooth;
+}
+.eligible_rideType_scroll_bar_container::-webkit-scrollbar-track {
+  background-color: #68728433;
+}
+.eligible_rideType_scroll_bar_container::-webkit-scrollbar {
+  width: 3px;
+}
+.eligible_rideType_scroll_bar_container::-webkit-scrollbar-thumb {
+  background-color: #687284;
+  border-radius: 15px;
+}
+.zone_scroll_bar_container {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 30rem;
+  /* width: 12.3rem; */
+  scroll-behavior: smooth;
+}
+.zone_scroll_bar_container::-webkit-scrollbar-track {
+  /* background-color: #68728433; */
+  margin-top: 2.5rem;
+}
+.zone_scroll_bar_container::-webkit-scrollbar {
+  width: 3px;
+}
+.zone_scroll_bar_container::-webkit-scrollbar-thumb {
+  background-color: #687284;
+  border-radius: 15px;
+}
+.zone_input {
+  box-shadow: 0px 0px 12px #00000012;
+  border: 1px solid #68728468;
+}
+.zone_input::placeholder {
+  color: #687284;
+  font-size: 12px;
+}
+.search_icon {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+}
+.upload_document_input {
+  visibility: hidden;
+  width: 0px;
+}
+.details_text {
+  text-decoration: underline;
+}
+.details_container {
+  position: absolute;
+  top: 5.5rem;
+  right: 1rem;
+  box-shadow: 0px 0px 15px #68728433;
+  line-height: 22px;
+  font-weight: 600;
+  display: block;
+  margin-left: -1.2rem;
+}
+.details_container:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 7px solid #68728433;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  bottom: 100%;
+  left: 50%;
+  margin-left: 55px;
+  margin-top: -1px;
+}
+
+.ridetype_second_modal_backdrop {
+  z-index: 1055 !important;
+}
+
+.vehicleType_details_container {
+  position: absolute;
+  top: 4.5rem;
+  right: 1rem;
+  box-shadow: 0px 0px 15px #68728433;
+  width: 15rem;
+  line-height: 22px;
+  font-weight: 600;
+  display: block;
+  margin-left: -1.2rem;
+}
+.vehicleType_details_container:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 7px solid #68728433;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  bottom: 100%;
+  left: 50%;
+  margin-left: 65px;
+  margin-top: -1px;
+}
+.rideType_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.85 !important;
+}
+
+.rideType_zone_heading_container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #00000029;
+  /* opacity: 0.6; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.rideType_zone_down_btns_container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px -6px 10px #00000029;
+  /* opacity: 0.6; */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.no_border_table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.no_border_table th,
+.no_border_table td {
+  border: none;
+  padding: 5px;
+}

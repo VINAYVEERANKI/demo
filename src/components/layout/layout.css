@@ -1,0 +1,131 @@
+.sidebar {
+  box-shadow: 0 0px 7px rgb(0 0 0 / 0.2);
+  height: 100vh;
+}
+.main_layout_container {
+  width: calc(100% - 270px);
+}
+.sidebar_container {
+  z-index: 29;
+  background-color: #ffffff;
+  width: 270px;
+}
+
+.logout_container {
+  box-shadow: 0 0px 7px #ccc;
+  z-index: 23;
+  width: 100%;
+  padding: 0.7rem 0px 0.7rem 0px;
+}
+
+.mainlayout_sidebar_display {
+  display: block;
+}
+.menu_icon_container {
+  display: none;
+}
+
+.bookings_trip_details_container {
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+}
+
+.mainlayout_sidebar_inner__container {
+  max-height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* max-height: fit-content; */
+  scroll-behavior: smooth;
+}
+.mainlayout_sidebar_inner__container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.mainlayout_sidebar_inner__container::-webkit-scrollbar {
+  width: 3px;
+}
+
+.mainlayout_sidebar_inner__container::-webkit-scrollbar-thumb {
+  background-color: #687284;
+  border-radius: 15px;
+}
+.booking_status_heading {
+  width: 15rem;
+}
+
+.faq_top_active_btn {
+  border-radius: 7px 7px 0px 0px;
+  border: none;
+}
+.faq_btn {
+  padding: 0rem 2.5rem 0rem 2.5rem;
+}
+
+.faq_top_inactive_btn {
+  border-right: 2px solid #f0f0f0;
+}
+.faq_container {
+  min-height: 55rem;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 0px 10px 10px 10px;
+}
+
+.faq_sidebar_active_btn {
+  background-color: #e0dfde69;
+  border-left: 6px solid #ffc000;
+  border-radius: 0px 3px 3px 0px;
+  width: 98%;
+}
+.sidebarSubHeading {
+  border-bottom: 2px solid #00000029;
+  width: 95%;
+}
+
+.table-border {
+  border-right: 2px solid #00000029;
+  height: 53rem;
+}
+
+.faq_sidebar_list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 100%;
+  scroll-behavior: smooth;
+}
+
+.faq_sidebar_list::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.faq_sidebar_list::-webkit-scrollbar {
+  width: 0px;
+  background-color: #f5f5f5;
+}
+
+.faq_sidebar_list::-webkit-scrollbar-thumb {
+  background-color: #f5f5f5;
+}
+/* .sos_pending_display_block {
+  right: 0rem;
+} */
+
+@media only screen and (max-width: 992px) {
+  .mainlayout_logo_container {
+    width: auto;
+  }
+  .mainlayout_sidebar_display {
+    display: none;
+  }
+  .menu_icon_container {
+    display: block;
+  }
+  .main_layout_container {
+    width: 100%;
+  }
+}
+
+
+
+

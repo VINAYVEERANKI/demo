@@ -1,0 +1,58 @@
+.admin_table_container {
+  min-height: 48rem;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+}
+.table_body_container {
+  min-height: 30rem;
+  background-color: #c4eefa35 !important;
+}
+
+.filter_number_container {
+  right: 0.1rem;
+  background: transparent
+    linear-gradient(180deg, #273978 0%, #324999 37%, #273978 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  bottom: 1.5rem;
+}
+
+.manage_fare_list_navbar {
+  /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+  border-radius: 7px;
+}
+.first_list {
+  border-top-left-radius: 7px !important;
+}
+.last_list {
+  border-top-right-radius: 7px;
+}
+
+.manage_fare_checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.manage_fare_checkbox_row {
+  width: 15px;
+  height: 15px;
+}
+
+.admin_id_btn {
+  border: none !important;
+}
+
+.border_bottom_DDE1E6{
+  border-bottom:  1px solid #DDE1E6;
+}
+
+/* .default_fare_container {
+  min-height: 48rem;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+} */

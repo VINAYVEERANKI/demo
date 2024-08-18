@@ -1,0 +1,59 @@
+.driver_details_container {
+  max-width: 98rem;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+  height: 55rem;
+  overflow: hidden;
+}
+
+
+
+.manage_driver_container {
+  min-height: 48rem;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;  
+}
+.menu_list {
+  list-style: none;
+}
+
+/* .driver_details_container::-webkit-scrollbar-track {
+  background-color: #68728433;
+  margin:20px;
+  
+}
+
+.driver_details_container::-webkit-scrollbar {
+  width: 3px;
+}
+
+.driver_details_container::-webkit-scrollbar-thumb {
+  background-color: #687284;
+  border-radius: 15px; 
+} */
+.scrollable_vehicle_details_container{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 50rem;
+  scroll-behavior: smooth;
+  
+}
+.scrollable_vehicle_details_container::-webkit-scrollbar-track {
+  background-color: #68728433;
+  /* margin-bottom:20px; */
+  
+}
+
+.scrollable_vehicle_details_container::-webkit-scrollbar {
+  width: 3px;
+}
+
+.scrollable_vehicle_details_container::-webkit-scrollbar-thumb {
+  background-color: #687284;
+  border-radius: 15px; 
+}
+
+/* banned  */
+

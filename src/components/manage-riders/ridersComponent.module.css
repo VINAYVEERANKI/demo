@@ -1,0 +1,204 @@
+.personalinformation_image_container {
+  width: 8.125rem;
+  height: 8.125rem;
+  /* position: relative; */
+}
+.personalinformation_profile_image {
+  border-radius: 7px;
+}
+
+/* .profile_info_contianer{
+    width: 10rem;
+  } */
+
+.create_password_container {
+  max-width: 27rem !important;
+}
+.create_password_card_radius {
+  border-radius: 10px !important;
+}
+.password_visible_icon {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+}
+
+.password_confirm_visible_icon {
+  position: absolute;
+  right: 7px;
+  top: 28px;
+}
+
+.password_created_container {
+  max-width: 24rem !important;
+}
+.password_created_card {
+  border-radius: 10px !important;
+}
+.change_made_password_visible {
+  position: absolute;
+  right: 53px;
+  top: 30px;
+}
+.confirm_reset_password_visible {
+  position: absolute;
+  right: 7px;
+  top: 2px;
+}
+
+.admin_unblock_container {
+  max-width: 31rem !important;
+}
+.block_text_area {
+  min-height: 6vw;
+}
+.menu_list {
+  list-style: none;
+}
+
+/* .create_password_modal_backdrop {
+  z-index: 1055 !important;
+} */
+/* new admin modals css */
+
+.close_icon_container {
+  border-radius: 50%;
+}
+
+.password_error_text {
+  color: #ed0b0b;
+}
+
+/* new changes */
+
+.reset_picture_password_container {
+  max-width: 33rem !important;
+}
+
+.reset_picture_success_container {
+  max-width: 28rem !important;
+}
+
+/* end */
+.list_underline {
+  border: 1px solid #d7d7d7;
+}
+
+.password_error {
+  border: 1px solid #f90000d6;
+}
+.password_input {
+  border: 1px solid #9e9e9e;
+}
+
+.confirm_reset_container {
+  max-width: 30rem !important;
+}
+.input_text_holder::placeholder {
+  font-size: 13px;
+  font-weight: 500;
+}
+.admin_block_password_visible {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+/* riders modals starts */
+.rider_account_container {
+  max-width: 27rem !important;
+}
+.delete_profile_container {
+  max-width: 30rem !important;
+}
+
+.unblock_profile_container {
+  max-width: 28rem !important;
+}
+.block_profile_container {
+  max-width: 31rem !important;
+}
+.block_profile_card {
+  border-radius: 7px !important;
+}
+.rating_password_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.85 !important;
+}
+/* riders modals ends */
+
+.rider_list_btn {
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.riders_list_container {
+  position: absolute;
+  box-shadow: 0px 0px 25px #68728433;
+  border-radius: 8px;
+  background-color: #ffff;
+  z-index: 999;
+  top: 2rem;
+}
+.list_items {
+  list-style: none;
+}
+.rider_image {
+  border: 2px solid #ffc000;
+  border-radius: 7px;
+}
+.rider_rating {
+  background-color: #ffc000;
+  position: absolute;
+  bottom: 0;
+  left: 5rem;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 7px;
+}
+
+.green_checkbox_icon {
+  padding-bottom: 2%;
+}
+
+/* .rider_history_table_container {
+  position: relative;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  height: 30rem;
+}
+
+.rider_history_table_container::-webkit-scrollbar {
+  background-color: #fbfbfb;
+  width: 8px;
+  height: 5px;
+}
+.rider_history_table_container::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px #00000029;
+} */
+
+
+
+
+.rider_history_table_container {
+  position: relative;
+  overflow-x: auto;
+  min-width: 300px;
+  width: 100%;
+  min-height: 37rem;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+.rider_history_table_container::-webkit-scrollbar {
+  background-color: #fbfbfb;
+  width: 8px;
+  height: 10px;
+}
+
+.rider_history_table_container::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px #00000029;
+}

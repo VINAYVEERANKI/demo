@@ -1,0 +1,15 @@
+.messageIcon {
+  width: 20px;
+}
+.messageIconButton {
+  height: 38px;
+  width: 38px;
+  border: 1px solid#FFC000;
+}
+.messagesNumber{
+    z-index: 222;
+    top: -10px;
+    right: -10px;
+    background-color: #d20000;
+    min-width: 20px;
+}

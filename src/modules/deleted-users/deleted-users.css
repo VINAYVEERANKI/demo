@@ -1,0 +1,38 @@
+.deleted_user_container {
+  max-width: 98rem;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+  min-height: 48rem;
+}
+
+.active_container {
+  background-color: #00ab2e33;
+  border-radius: 50px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.view_text:hover {
+  color: #ffff;
+}
+
+.blocked_active_container {
+  background-color: #f6c90e;
+  border-radius: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.inactive_container {
+  background-color: #f6000033;
+  border-radius: 50px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.profile_document_container {
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: 7px;
+}
+.main_heading_border_bottom {
+  border-bottom: 2px solid #f0f0f0;
+}

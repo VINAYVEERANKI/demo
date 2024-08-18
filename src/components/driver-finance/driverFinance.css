@@ -1,0 +1,151 @@
+.driver_finance_cashout_details_view {
+  position: absolute;
+  top: 11.5rem;
+  left: 4rem;
+  box-shadow: 0px 0px 15px #68728433;
+  width: 21.5rem;
+  line-height: 22px;
+  font-weight: 600;
+  display: block;
+  margin-left: -1.2rem;
+  z-index: 1;
+}
+.driver_finance_cashout_details_view:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 7px solid #ffffff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  bottom: 100%;
+  left: 16%;
+  margin-left: 65px;
+  margin-top: 1px;
+}
+.create_cash_transaction_container {
+  max-width: 32rem !important;
+}
+.switch_premium_modal_conatiner {
+  max-width: 50rem !important;
+}
+.transaction_passwd_modal_backdrop {
+  z-index: 1055 !important;
+}
+.switch_premium_block_broder {
+  border-left: 1px solid #d9d9d9;
+}
+@media only screen and (max-width: 1372px) {
+  .driver_finance_cashout_details_view {
+    position: absolute;
+    top: 12.8rem;
+    left: 3.9rem;
+    box-shadow: 0px 0px 15px #68728433;
+    width: 21.5rem;
+    line-height: 22px;
+    font-weight: 600;
+    display: block;
+    margin-left: -1.2rem;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .driver_finance_cashout_details_view {
+    position: absolute;
+    top: 15.6rem;
+    left: 3.9rem;
+    box-shadow: 0px 0px 15px #68728433;
+    width: 21.5rem;
+    line-height: 22px;
+    font-weight: 600;
+    display: block;
+    margin-left: -1.2rem;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width: 1066px) {
+  .driver_finance_cashout_details_view {
+    position: absolute;
+    top: 17.1rem;
+    left: 3.9rem;
+    box-shadow: 0px 0px 15px #68728433;
+    width: 21.5rem;
+    line-height: 22px;
+    font-weight: 600;
+    display: block;
+    margin-left: -1.2rem;
+    z-index: 1;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .driver_finance_cashout_details_view {
+    position: absolute;
+    top: 15rem;
+    left: 3.9rem;
+    box-shadow: 0px 0px 15px #68728433;
+    width: 21.5rem;
+    line-height: 22px;
+    font-weight: 600;
+    display: block;
+    margin-left: -1.2rem;
+    z-index: 1;
+  }
+}
+.driver_finance_Dropdown_inputbox:focus-visible {
+  outline: none !important;
+}
+.create_cash_modal_amnt_inpt_box {
+  width: 100%;
+  max-width: 100px;
+}
+.error {
+  border: 1px solid red;
+}
+.error-border {
+  border: 2px solid red;
+}
+.create_cash_modal_amnt_inpt_box:focus-visible {
+  outline: none;
+}
+.create_cash_modal_sel_drpdwn {
+  height: 100%;
+  max-height: 34px;
+  width: 100%;
+  min-width: 45px;
+}
+/* .border_grey_color{
+  color: #68728480;
+} */
+.create_cash_modal_amnt_inpt_box::placeholder {
+  font-size: 12px;
+}
+.border_grey_color {
+  border: 1px solid #68728480;
+}
+.create_cash_modal_sel_drpdwn:focus-visible {
+  outline: none !important;
+  /* font-weight: 500; */
+}
+/* .select-dropdown-icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("../../assets/icons/select-dropdowm-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+} */
+.position_relative {
+  position: relative;
+}
+.select-dropdown-icon {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+.ride_broadcast_filter_button {
+  position: absolute;
+  right: 45px;
+}

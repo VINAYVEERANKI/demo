@@ -1,0 +1,59 @@
+.onging_bookings_container {
+  max-width: 98rem;
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+  max-height: 57rem;
+}
+.ongoing_heading_first_list {
+  border-top-left-radius: 7px;
+}
+.ongoing_heading_last_list {
+  border-top-right-radius: 7px;
+}
+
+.bookings_trip_details_container {
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+}
+
+.trip_detail_id_container {
+  border-radius: 0px 0px 0px 0px;
+}
+.trip_info_container {
+  /* max-width: 67rem; */
+  width: 100%;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+  background-color: #6872840d;
+}
+.trip_information_heading {
+  box-shadow: 0px 0px 12px #00000012;
+}
+.trip_information_heading {
+  position: absolute;
+  top: -1.5rem;
+  left: 1.5rem;
+}
+.scrollable_ongoing_information_container {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: fit-content;
+  scroll-behavior: smooth;
+}
+.scrollable_ongoing_information_container::-webkit-scrollbar-track {
+  background-color: #68728433;
+}
+
+.scrollable_ongoing_information_container::-webkit-scrollbar {
+  width: 3px;
+}
+
+.scrollable_ongoing_information_container::-webkit-scrollbar-thumb {
+  background-color: #687284;
+  border-radius: 15px;
+}
+.booking_status_heading {
+  width: 15rem;
+}

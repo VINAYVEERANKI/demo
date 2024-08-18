@@ -1,0 +1,212 @@
+.outline {
+  border: 1px solid #080808;
+}
+.bluline {
+  background: var(--unnamed-color-005ae2) 0% 0% no-repeat padding-box;
+  background: #0364f5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 4px;
+}
+.trip_container {
+  background: #f9f9f9 0% 0% no-repeat padding-box;
+  box-shadow: -3px 3px 6px #cbcbcbb5;
+  border: 2px solid #eeeeee !important;
+}
+.border_rights {
+  border-right: 1px solid #707070;
+}
+.cancellation_container {
+  background: #f9f9f9 0% 0% no-repeat padding-box;
+  box-shadow: -3px 3px 6px #cbcbcbb5;
+  border: 2px solid #eeeeee;
+  height: 100%;
+  /* min-height: 630px; */
+}
+.driverline {
+  border: 1px solid #707070;
+}
+.drivercancel {
+  line-height: 1rem;
+}
+.driver_select {
+  width: 13rem;
+}
+.col-width {
+  width: 13% !important;
+}
+.col-width1 {
+  width: 20.5% !important;
+}
+.col-width2 {
+  width: 66% !important;
+}
+.downpanel {
+  background: #d9d9d9 0% 0% no-repeat padding-box;
+}
+.header_table {
+  background: #ffe8c6 0% 0% no-repeat padding-box !important;
+  border: 1px solid #0f203c;
+  border-radius: 7px 7px 0px 0px !important;
+}
+.header_tablesss {
+  background: #ffe8c6 0% 0% no-repeat padding-box !important;
+}
+.table_border {
+  border: 1px solid #0f203c !important;
+  border-radius: 9px 0px 9px 9px !important;
+}
+.border_table {
+  border-right: 1px solid black !important;
+}
+.mainheading {
+  background: #c6d2ff 0% 0% no-repeat padding-box !important;
+  padding-top: 0.1rem;
+}
+.mainheading2 {
+  background: #d4edef 0% 0% no-repeat padding-box !important;
+  padding-top: 5rem;
+}
+.mainheading3 {
+  background: #adca9a 0% 0% no-repeat padding-box !important;
+  padding-top: 2.4rem;
+}
+.bookings1 {
+  background: #ee9e9e 0% 0% no-repeat padding-box !important;
+}
+.bookings2 {
+  background: #d200003b 0% 0% no-repeat padding-box !important;
+}
+.bookings3 {
+  background: #00ab2e4a 0% 0% no-repeat padding-box !important;
+}
+.earnings {
+  background: #adca9a 0% 0% no-repeat padding-box;
+}
+.table_backcolor {
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.table_btmsborder {
+  border-bottom: 1px solid #0f203c !important;
+}
+.table_width {
+  min-width: 100%;
+}
+/* .driver_Metrics_Bookings_Earnings_Section{
+ height: 440px;
+} */
+.local_responser_list {
+  overflow: auto;
+  /* overflow-y: scroll; */
+  /* overflow-x: auto; */
+  max-height: 20rem;
+  min-height: 20rem;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+.local_responser_list::-webkit-scrollbar-track {
+  /* background-color: #f5f5f5; */
+  margin-top: 40px;
+}
+
+.local_responser_list::-webkit-scrollbar {
+  width: 3px;
+  /* background-color: #f5f5f5; */
+}
+
+.local_responser_list::-webkit-scrollbar-thumb {
+  background-color: #687284;
+}
+.overflowlist_list {
+  overflow-x: auto !important;
+}
+.overflowlist_list::-webkit-scrollbar-track {
+  /* background-color: #f5f5f5; */
+  margin-top: 40px;
+}
+
+.overflowlist_list::-webkit-scrollbar {
+  width: 3px;
+  /* background-color: #f5f5f5; */
+}
+
+.overflowlist_list::-webkit-scrollbar-thumb {
+  background-color: #687284;
+}
+.textOnInput {
+  position: relative;
+}
+.textOnInput label {
+  position: absolute;
+  top: -15px;
+  left: 23px;
+  padding: 2px;
+  z-index: 1;
+}
+.textOnInput label:after {
+  content: " ";
+  background-color: #fff;
+  width: 100%;
+  height: 13px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.datelabel {
+  color: #687284;
+}
+.start_date {
+  width: 10rem;
+  border: 1px solid #687284;
+}
+
+.start_date[type="date"]::-webkit-calendar-picker-indicator {
+  color: #0f203c;
+  opacity: 1;
+  display: block;
+  background: url(../../assets/icons/calendar-icon.svg) no-repeat;
+  background-size: 17px 17px;
+  background-position: center top 5px;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+.filterfield {
+  color: #9e9e9e;
+  font-size: 11px;
+}
+.filterfieldfilter {
+  position: relative;
+}
+.filterfieldfilter label {
+  position: absolute;
+  top: -15px;
+  left: 12px;
+  padding: 2px;
+  z-index: 1;
+}
+.filterfieldfilter label:after {
+  content: " ";
+  background-color: #fff;
+  width: 100%;
+  height: 13px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.filterfieldsize {
+  border: 1px solid rgb(221, 212, 212);
+  padding: 0.3rem;
+  border-radius: 4px;
+}
+.filterfieldsize::placeholder {
+  color: #9ea5b1;
+  font-weight: 450;
+  letter-spacing: -0.8px !important;
+}
+.filterfieldsize:focus {
+  border: 2px solid rgb(221, 217, 217);
+}

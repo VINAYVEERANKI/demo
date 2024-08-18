@@ -1,0 +1,79 @@
+.inputField_error__border {
+  padding: 0.35rem 0.8rem;
+  border: 1.5px solid #cccccc;
+}
+.inputField__border {
+  padding: 0.35rem 0.8rem;
+  border: 1.5px solid #cccccc;
+}
+.inputField::placeholder {
+  color: #464646;
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.9;
+  position: absolute;
+  top: 24%;
+}
+.inputField {
+  color: #464646;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* coupon input field  */
+.percent_icon {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.4rem;
+  border-left: 1px solid #0f203c;
+}
+
+.ruppe_icon {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+}
+.coupon_discription_text_area {
+  height: 5rem;
+}
+.faq_discription_text_area {
+  height: 7.5rem;
+}
+
+.input_container {
+  width: 40rem;
+}
+
+.input_box {
+  border-top: 1px solid #0f203c;
+  height: 8rem;
+}
+.bold {
+  font-weight: bold;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+.border_fields_select {
+  /* border: 1px solid #68728480; */
+  border-radius: 6px;
+  /* height: 1rem; */
+  width: 3.5rem;
+}
+.input_height {
+  min-height: 2rem;
+  border: 1px solid #68728480;
+  border-radius: 6px;
+}
+.input_height_red {
+  min-height: 2rem;
+  border: 1px solid red;
+  border-radius: 6px;
+}
+.text_height{
+  min-height: 6rem;
+}

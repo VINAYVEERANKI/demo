@@ -1,0 +1,39 @@
+.filter_container {
+  box-shadow: 0px 0px 20px #0000001f;
+  background-color: white;
+  z-index: 99;
+  position: absolute;
+  top: -3.8rem;
+  right: -2rem;
+  width: 100%;
+  max-width: 45rem;
+}
+.complaint_filter_container {
+  box-shadow: 0px 0px 20px #0000001f;
+  background-color: white;
+  z-index: 99;
+  position: absolute;
+  top: 1rem;
+  right: -2rem;
+  width: 100%;
+  max-width: 45rem;
+}
+.complaint_filter_number_container {
+  top: -10px;
+  right: -10px;
+  background: transparent
+    linear-gradient(180deg, #273978 0%, #324999 37%, #273978 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+@media only screen and (max-width: 992px) {
+  .filter_container {
+    right: 0rem;
+  }
+  .complaint_filter_container {
+    right: 0rem;
+  }
+}

@@ -1,0 +1,32 @@
+.rider_complaints_container {
+  /* max-width: 98rem; */
+  box-shadow: 0px 0px 12px #00000012;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+  /* max-height: 90vh; */
+  /* min-height: 48rem; */
+}
+.menu_list {
+  list-style: none;
+}
+
+
+.message_sideBar {
+  overflow-y: scroll;
+  /* overflow-x: auto; */
+  height: 60vh;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+/* .message_sideBar::-webkit-scrollbar-track {
+  margin-top: 40px;
+} */
+
+.message_sideBar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.message_sideBar::-webkit-scrollbar-thumb {
+  background-color: #68728450;
+}

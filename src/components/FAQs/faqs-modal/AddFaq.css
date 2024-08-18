@@ -1,0 +1,33 @@
+.add_faq_modal {
+  max-width: 650px !important;
+}
+.delete_button {
+  border-color: #d20000;
+  background-color: #ffffffde;
+  /* color: #D20000; */
+}
+.add_faqtopic_topic_modal {
+  max-width: 35rem !important;
+}
+.details_containers {
+  position: absolute;
+  /* top: 0rem; */
+  /* bottom: 0.1rem; */
+  top: 175px;
+  right: 2.5rem;
+  line-height: 24px;
+  font-weight: 600;
+  display: block;
+}
+.details_containers::after {
+  content: "";
+  position: absolute;
+  height: 0;
+  top: -9px;
+  border-bottom: 8px solid #d9d9d9;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  /* bottom: 100%; */
+  transform: rotate(360deg);
+  left: 90%;
+}

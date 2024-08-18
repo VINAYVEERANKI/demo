@@ -1,0 +1,176 @@
+button[title="Draw a shape"] {
+  border-radius: 10px !important;
+  background: #0f203c !important;
+  margin-left: 20px !important;
+}
+
+.map_container {
+  max-width: 38rem;
+}
+
+.property_location {
+  height: 20rem;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.map_container {
+  width: 100%;
+  height: 260px;
+  border-radius: 5px;
+}
+.placesAutocomplete {
+  z-index: 999;
+}
+.comboboxInput {
+  border: none;
+  width: 100%;
+  background-color: #dbe9f24d;
+  border-radius: 5px;
+}
+.comboboxInput:focus-visible {
+  outline: none;
+}
+.comboboxInput::placeholder {
+  color: #bcc7ce;
+}
+.save_btn {
+  background-color: #1d72db;
+  border-radius: 5px;
+  border: none;
+  color: #ffff;
+  font-family: Poppins;
+}
+.card_radius {
+  border-radius: 10px;
+}
+.close_icon {
+  width: 10% !important;
+}
+
+/*****MAP*****/
+.map_container_new {
+  width: 100%;
+  height: 420px;
+
+  /* border-radius: 0.25rem; */
+}
+.newmap_container {
+  width: 100%;
+  height: 500px;
+  /* border: 3px solid #ed0b0b; */
+  /* border: 3px solid #ffff; */
+  border-radius: 5px;
+}
+.newmap_container__error {
+  border: 2.7px solid #ed0b0b;
+}
+.newmap_container__border {
+  border: 3px solid #ffff;
+}
+.newmap_dele__btn {
+  cursor: pointer;
+  margin-top: 5px;
+  background-color: #fff;
+  position: absolute;
+  top: 2px;
+  left: 52%;
+}
+.newmap_reload__btn {
+  border: 2px solid #0f203c;
+}
+.newmap_disabled__btn {
+  border: 2px solid #9e9e9e;
+}
+.newmap_search__input {
+  border: 1px solid transparent;
+  width: 450px;
+  height: 32px;
+  padding: 0 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  outline: none;
+  text-overflow: ellipsis;
+}
+.newmap_search__input::placeholder {
+  font-weight: 500;
+}
+.newmap_modal__body {
+  position: relative;
+  flex: 1 1 auto;
+  /* padding: 0.3rem 0.3rem; */
+}
+
+.newmap_mini__btn {
+  width: 30px;
+  height: 30px;
+}
+.newmap__toolbar {
+  top: 15px;
+  left: 15px;
+  z-index: 777;
+}
+
+.newmap_done__btn {
+  left: 85%;
+  bottom: 5%;
+}
+.newmap_error {
+  min-width: 150px;
+  max-width: 700px;
+  width: fit-content;
+  left: 50%;
+  bottom: 2%;
+  background-color: #fbe5e5;
+  padding-bottom: 0.2rem;
+}
+.newmap__viewzone {
+  top: 15px;
+  right: 0;
+  z-index: 777;
+  min-width: 230px;
+  box-shadow: 0px 0px 20px #0000001f;
+}
+.newmap_local__viewzone {
+  top: 15px;
+  right: -4%;
+  z-index: 777;
+  min-width: 230px;
+  box-shadow: 0px 0px 20px #0000001f;
+}
+.newmap_blue__border {
+  border: 2px solid #0060ffe3;
+}
+.newmap_viewzone_list__color {
+  /* background-color: #0060ff; */
+  padding: 0.4rem;
+}
+
+.newmap_view__container {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+.newmap_viewzone_list__item {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  .newmap_search__input {
+    width: auto;
+  }
+  .newmap__viewzone {
+    left: 50%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .newmap__viewzone {
+    left: 15px;
+    top: 55px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .newmap__viewzone {
+    top: 150px;
+    color:#959595;
+  }
+}

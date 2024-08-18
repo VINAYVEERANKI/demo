@@ -1,0 +1,138 @@
+.create_coupon_container {
+  max-width: 35rem !important;
+}
+.create_coupon_modal_backdrop {
+  background: #0f203cb3 0% 0% no-repeat padding-box !important;
+  opacity: 0.85 !important;
+}
+.coupon_input_border {
+  border: 1px solid #777879;
+}
+.coupon_input_border::placeholder {
+  font-size: 16px;
+  color: #777879;
+  font-weight: 500;
+}
+
+/* .coupon_input_border_error {
+  border: 1px solid #d20000;
+} */
+.coupon_input_border_error::placeholder {
+  font-size: 16px;
+  color: #777879;
+  font-weight: 500;
+}
+.campaign_details_container {
+  position: relative;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.campaign_details_container::-webkit-scrollbar {
+  background-color: #fbfbfb;
+  width: 8px;
+  height: 5px;
+}
+.campaign_details_container::-webkit-scrollbar-thumb {
+  background: #a5a5a7;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px #00000029;
+}
+
+.coupon_placeholder_text::placeholder {
+  color: #68728480;
+  font-size: 12px;
+  font-weight: 400;
+}
+.booking_destination_type_block {
+  height: 7rem;
+}
+.coupon_view_button:hover {
+  color: #0f203c;
+}
+/* input[disabled] {
+  background-color: #f1f1f1;
+} */
+
+.coupon_dropdown_icon {
+  position: absolute;
+  top: 1.8rem;
+  right: 1.5rem;
+}
+.coupon_placeholder_rideType_text::placeholder {
+  color: #68728480;
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+.BookingDestination_type_block {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 9rem;
+  scroll-behavior: smooth;
+}
+
+.BookingDestination_type_block::-webkit-scrollbar-track {
+  margin-top: 4rem;
+  background-color: none;
+}
+
+.BookingDestination_type_block::-webkit-scrollbar {
+  width: 3px;
+  background-color: #687284;
+}
+
+.BookingDestination_type_block::-webkit-scrollbar-thumb {
+  background-color: #687284;
+  border-radius: 15px;
+}
+.coupon_details_block {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  box-shadow: 0px 0px 15px #68728433;
+  line-height: 22px;
+  font-weight: 600;
+  display: block;
+  margin-left: -1.2rem;
+  z-index: 9999;
+}
+.coupon_details_block:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 7px solid #68728433;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  bottom: 100%;
+  left: 50%;
+  margin-left: 60px;
+  margin-top: -1px;
+  z-index: 9999;
+}
+
+.moreZone_container {
+  top: 5rem;
+  left: 1.5rem;
+  z-index: 9999;
+  border-radius: 5px;
+  box-shadow: inset 0 0 6px #00000029;
+  background-color: white;
+  min-width: 15rem;
+  max-width: 20rem;
+  max-height: 10rem;
+  overflow-y: auto;
+}
+
+.moreZone_container::-webkit-scrollbar {
+  background-color: #fbfbfb;
+  width: 5px;
+  height: 5px;
+}
+.moreZone_container::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px #00000029;
+}

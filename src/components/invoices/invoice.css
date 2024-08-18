@@ -1,0 +1,19 @@
+.invoice_download_container {
+  position: absolute;
+  box-shadow: 0px 0px 12px #68728433;
+  border-radius: 8px;
+  background-color: #ffff;
+  z-index: 999;
+  top: 2rem;
+  right: 2rem;
+}
+.invoice_container {
+  position: absolute;
+  box-shadow: 0px 0px 12px #68728433;
+  border-radius: 8px;
+  background-color: #ffff;
+  z-index: 999;
+  top: 2rem;
+  right: 2rem;
+  padding: 8px;
+}
